@@ -6,71 +6,67 @@ body {
   background-color: #003b38;
 }
 .content {
-    padding-top: 10%;
-    padding-left: 7%;
+  padding-top: 10%;
+  padding-left: 7%;
 }
-#header{
-    color: gray;
-    font-family: monospace;
-    font-size: 16px;
-
+#header {
+  color: gray;
+  font-family: monospace;
+  font-size: 16px;
 }
-#main-header{
-    margin-top: 40px;
-    font-weight: bold;
-    color: whitesmoke;
-    font-size: 50px;
-    font-family: serif;
+#main-header {
+  margin-top: 40px;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: serif;
 }
-.author-data{
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: 130px 130px 130px 130px;
-    column-gap: 5px;
+.author-data {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 130px 130px 130px 130px;
+  column-gap: 5px;
 }
-#icon-img{
-    width: 75px;
-    height: 75px;
+#icon-img {
+  width: 75px;
+  height: 75px;
 }
-h4{
-    color: gray;
-    font-family: sans-serif;
+h4 {
+  color: gray;
+  font-family: sans-serif;
 }
-.data-text{
-    color: whitesmoke;
-    font-size: 18px;
-    font-family: sans-serif;
+.data-text {
+  color: whitesmoke;
+  font-size: 18px;
+  font-family: sans-serif;
 }
-.icon{
-    display: inline-block;
-    align-items: center;
+.icon {
+  display: inline-block;
+  align-items: center;
 }
-.author{
+.author {
 }
-.comments{
-
+.comments {
 }
-.pub-date{
-
+.pub-date {
 }
-.update-date{
+.update-date {
 }
-.data{
-    margin-top: 35px;
-    display: grid;
-    grid-template-columns: 75px 1fr;
-    column-gap:20px;
+.data {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  column-gap: 20px;
 }
-@media screen and (max-width:600px){
-    .author-data{
-        grid-template-columns: 130px 130px;
-        gap: 20px;
-    }
-    .icon{
-        margin-top: 30px;
-    }
-    #main-header{
-        font-size: 30px;
-    }
-
- }
+@media screen and (max-width: 600px) {
+  .author-data {
+    grid-template-columns: 130px 130px;
+    gap: 20px;
+  }
+  .icon {
+    margin-top: 30px;
+  }
+  #main-header {
+    font-size: 30px;
+  }
+}
