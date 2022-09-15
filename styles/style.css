@@ -19,7 +19,7 @@ body {
     margin-top: 40px;
     font-weight: bold;
     color: whitesmoke;
-    font-size: 60px;
+    font-size: 50px;
     font-family: serif;
 }
 .author-data{
@@ -61,3 +61,16 @@ h4{
     grid-template-columns: 75px 1fr;
     column-gap:20px;
 }
+@media screen and (max-width:600px){
+    .author-data{
+        grid-template-columns: 130px 130px;
+        gap: 20px;
+    }
+    .icon{
+        margin-top: 30px;
+    }
+    #main-header{
+        font-size: 30px;
+    }
+
+ }
